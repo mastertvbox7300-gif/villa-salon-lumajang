@@ -1,0 +1,33 @@
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PHP
+*.log
+
+# Upload directory (jika ada file upload)
+/public/uploads/*
+!/public/uploads/.gitkeep
+
+# Vendor (jika menggunakan composer)
+vendor/
+composer.lock
+
+# Database backup
+/database/backup/*
+!/database/backup/.gitkeep
+
+# Temporary files
+tmp/
+temp/
